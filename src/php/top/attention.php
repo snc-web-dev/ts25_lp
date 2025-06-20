@@ -1,0 +1,28 @@
+<div class="price-attention">
+    <h3 class="headline3">
+        <div class="main">Attention </div>
+        <div class="sub">
+            <p>注意事項</p>
+        </div>
+    </h3>
+    <div class="price-attention__content">
+        <ul class="content-list">
+            <li class="more-list-item">一般チケットをご購入の場合、イベント中止による返金やチケット日付の変更はできません。</li>
+            <!-- <li class="more-list-item">
+                安心チケットをご購入の場合、チケットが完売していなければ、日付の変更が可能です。日付変更に回数制限はございません。
+                さらに、イベントが中止された場合の返金にも対応いたします。</li> -->
+            <li class="more-list-item">入場にはお一人様につき1枚のチケットが必要です。（年齢が0〜5歳の方は、無料で入場できます）</li>
+            <!-- <li class="more-list-item">年齢が0〜5歳の方は、無料で入場できます。</li> -->
+            <li class="more-list-item">チケット購入後の、お客様都合によるキャンセルや払い戻しは受け付けておりません。</li>
+        </ul>
+    </div>
+    <div class="price-attention__term">
+        <div id="openTermModal" class="modal-btn modal-button-term" onclick="showTermModal()">チケット規約</div>
+        <div id="openDiscontinuationModal" class="modal-btn modal-button-discontinuation" onclick="showDiscontinuationModal()">中止判断基準</div>
+
+        <!-- <div id="openTermModal-r" class="modal-btn modal-button-term pc">チケット規約</div>
+        <div id="openDiscontinuationModal-r" class="modal-btn modal-button-discontinuation pc">中止判断基準</div>
+        <div id="openTermModal" class="modal-btn modal-button-term sp">チケット規約</div>
+        <div id="openDiscontinuationModal" class="modal-btn modal-button-discontinuation sp">中止判断基準</div> -->
+    </div>
+</div>

@@ -1,0 +1,54 @@
+.mask.active:before {
+  width: 0;
+}
+
+.mask:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #debcc9, #c489a0);
+  opacity: 0.5;
+  right: 0;
+  top: 0;
+  transition: 0.6s;
+}
+
+.mask {
+  position: relative;
+}
+
+.bigTxt {
+  position: relative;
+}
+.bigTxt:before {
+  content: "";
+  width: 100%;
+  height: clamp(100px, 15vw, 200px);
+  top: 0;
+  left: 0;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  animation: infinity-scroll-left 30s infinite linear 0.5s both;
+}
+
+@keyframes infinity-scroll-left {
+  from {
+    background: url(../img/con01_bgTit.webp) no-repeat left center/cover;
+  }
+  to {
+    background: url(../img/con01_bgTit.webp) no-repeat right center/cover;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    clip-path: inset(60% 20% 60% 20%);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0% 0% 0% 0%);
+  }
+}
+/*# sourceMappingURL=maps/animation.css.map */
