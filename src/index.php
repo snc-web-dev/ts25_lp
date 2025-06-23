@@ -123,8 +123,8 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
             <div class="link_area fade content01">
                 <img src="img/con01.webp?v=2" alt="『七夕スカイランタン祭り2025』京都会場は2025年8月8日(土)〜11日(月)、15日(土)、16日(日)開催！">
                 <!-- <div class="btn_area"> -->
-                    <!-- <a href="https://www.snc-jp.com/booking-calendar" class="btn_con jump_to_ticket" target="_blank"><img src="img/btn.webp" alt="チケットのご予約はこちら"></a> -->
-                    <!-- <p class="attention-p">※ご盛況につき、3月8日〜3月31日までの<span class="i-text">当日券はございません。</span></p> -->
+                <!-- <a href="https://www.snc-jp.com/booking-calendar" class="btn_con jump_to_ticket" target="_blank"><img src="img/btn.webp" alt="チケットのご予約はこちら"></a> -->
+                <!-- <p class="attention-p">※ご盛況につき、3月8日〜3月31日までの<span class="i-text">当日券はございません。</span></p> -->
                 <!-- </div> -->
             </div>
             <div class="fade con02">
@@ -184,39 +184,13 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
             </video> -->
             <img src="img/con04.webp" alt="ひとときの感動は、永遠の記憶に">
             <iframe src="https://www.youtube.com/embed/P4ktomfZ-x8"
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen>
             </iframe>
         </section>
-        <section class="voice" id="voice">
-            <div class="inner fade">
-                <div>
-                    <img src="img/con05_logo.webp" alt="七夕スカイランタン祭り2025" class="con05logo">
-                    <h2><img src="img/con05_tit.webp" alt="お客様の声"></h2>
-                </div>
-                <ul class="voiceList">
-                    <li>
-                        <dl>
-                            <dt>Nさん<span>(男性/10代)</span></dt>
-                            <dd><p>入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p></dd>
-                        </dl>
-                    </li>
-                    <li>
-                        <dl>
-                            <dt>Nさん<span>(男性/10代)</span></dt>
-                            <dd><p>入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p></dd>
-                        </dl>
-                    </li>
-                    <li>
-                        <dl>
-                            <dt>Nさん<span>(男性/10代)</span></dt>
-                            <dd><p>入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p></dd>
-                        </dl>
-                    </li>
-                </ul>
-            </div>
-        </section>
+        <?php include('./php/voice_section.php'); ?>
+
         <section class="schedule base-con" id="schedule">
             <div class="fade">
                 <h2 class="mainTit"><img src="img/con06_tit.webp" alt="開催日時"></h2>
@@ -367,7 +341,9 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
                         <img src="img/news_deco.webp" alt="神奈川でも開催！">
                         <img src="img/event_logo_yoko.webp" alt="七夕スカイランタン祭り2025" class="news_logo">
                         <img src="img/news_txt.webp" alt="神奈川でも開催！" class="news_txt">
-                        <a href="https://snc-ts.com/" class="btn2" target="_blank"><p>公式サイトはこちら</p></a>
+                        <a href="https://snc-ts.com/" class="btn2" target="_blank">
+                            <p>公式サイトはこちら</p>
+                        </a>
                         <img src="img/news_deco.webp" alt="神奈川でも開催！">
                     </div>
                 </div>
