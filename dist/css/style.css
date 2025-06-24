@@ -859,6 +859,40 @@ header a.hlogo:hover {
 /*-----------------------------------------------------------
 header
 -----------------------------------------------------------*/
+@media screen and (max-width: 414px) {
+  .headerScroll .lang-menu {
+    display: none;
+  }
+  header .header_inner div {
+    flex-direction: column;
+  }
+  header .header_inner div .lang-menu {
+    flex-direction: row;
+    height: 1em;
+    position: absolute;
+    bottom: -2em;
+    left: 10px;
+    background: white;
+    padding: 4px;
+  }
+}
+.lang-menu {
+  transition: 0.2s;
+}
+.lang-menu a {
+  font-size: clamp(11px, 1.2vw, 12px);
+  color: #03212b;
+  display: flex;
+  align-items: center;
+}
+.lang-menu a::after {
+  content: "|";
+  padding: 0 0.4em;
+}
+.lang-menu a:last-of-type:after {
+  content: none;
+}
+
 .wordchoice {
   width: auto;
   display: flex;

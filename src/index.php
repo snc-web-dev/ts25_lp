@@ -1,3 +1,23 @@
+<?php
+// ブラウザの言語を取得
+$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+
+// 対応言語に応じてリダイレクト
+switch ($lang) {
+    case 'en':
+        header("Location: /en/");
+        exit;
+    case 'zh':
+        header("Location: /zh/");
+        exit;
+    case 'ko':
+        header("Location: /ko/");
+        exit;
+    default:
+        // 日本語（デフォルト）を表示
+        break;
+}
+?>
 <!-- キャッシュクリア(画像は非対応) -->
 <?php
 header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
@@ -49,8 +69,8 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
     <meta property="og:type" content="website">
     <meta property="og:title" content="七夕スカイランタン祭り2025 | 今年で7回目！日本最大の七夕祭り">
     <meta property="og:site_name" content="七夕スカイランタン祭り2025 | 今年で7回目！日本最大の七夕祭り">
-    <meta property="og:url" content="https://snc-ts.com/snc-lp02"><!-- サイトURL -->
-    <meta property="og:image" content="https://snc-ts.com/snc-lp02/img/ogp.webp"><!-- 1200x630推奨 -->
+    <meta property="og:url" content="https://snc-ts.com/snc-lp"><!-- サイトURL -->
+    <meta property="og:image" content="https://snc-ts.com/img/ogp.webp"><!-- 1200x630推奨 -->
     <meta property="og:description" content="年で7回目となる『七夕スカイランタン祭り』。夏の夜空に願いを込めたスカイランタンを一斉に浮かべる感動のひとときを、新しい夏の風物詩に。2025年もよりパワーアップした内容で皆さんをお待ちしています！">
 
     <!-- X (Twitter) -->
@@ -58,17 +78,17 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
     <meta name="twitter:site" content="@skylanternJP">
     <meta name="twitter:title" content="七夕スカイランタン祭り2025 | 今年で7回目！日本最大の七夕祭り">
     <meta name="twitter:description" content="年で7回目となる『七夕スカイランタン祭り』。夏の夜空に願いを込めたスカイランタンを一斉に浮かべる感動のひとときを、新しい夏の風物詩に。2025年もよりパワーアップした内容で皆さんをお待ちしています！">
-    <meta name="twitter:image" content="https://snc-ts.com/snc-lp02/img/ogp.webp">
+    <meta name="twitter:image" content="https://snc-ts.com/img/ogp.webp">
 
     <meta name="robots" content="noindex, follow">
 
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="img/favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="MyWebSite">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -78,7 +98,6 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
     <!-- css -->
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css?<?php print date('Ymdhis', filemtime('css/style.css')); ?>">
-    <!-- <link rel="stylesheet" href="css/style.css?v=20250211"> -->
     <link rel="stylesheet" href="css/animation.css">
 
     <!-- js -->
@@ -114,7 +133,7 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
     <?php include('./php/common/header_lp.php'); ?>
     <main>
         <div class="first_view fade">
-            <img src="img/fv.webp?v=3" alt="神戸三宮から徒歩10分！格付けイベントが体験できる新感覚エンターテイメント！">
+            <img src="img/fv.webp?v=3" alt="今年で7回目！日本最大の七夕祭り">
         </div>
         <div class="obi_con">
             <p class="come">※最新情報は<a href="https://x.com/SoraAkari_snc" target="_blank">@SoraAkari_snc</a>にて随時更新中</p>
@@ -189,6 +208,7 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
                 allowfullscreen>
             </iframe>
         </section>
+        
         <?php include('./php/voice_section.php'); ?>
 
         <section class="schedule base-con" id="schedule">
@@ -209,7 +229,7 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
                 </ul>
             </div>
         </section>
-        <section class="ticketarea base-con anm" id="ticket">
+        <section class="ticketarea base-con" id="ticket">
             <h2 class="mainTit">
                 <img src="img/con08_tit.webp" alt="チケット料金" class="fade">
             </h2>

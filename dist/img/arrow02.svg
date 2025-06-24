@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
-  <g id="グループ_201" data-name="グループ 201" transform="translate(-1390 -4196)">
-    <g id="楕円形_7" data-name="楕円形 7" transform="translate(1390 4196)" fill="#fff" stroke="#0e264d" stroke-width="3">
-      <circle cx="30" cy="30" r="30" stroke="none"/>
-      <circle cx="30" cy="30" r="28.5" fill="none"/>
-    </g>
-    <path id="パス_14005" data-name="パス 14005" d="M872,792l7,7.5-7,7.5" transform="translate(620.5 5100.75) rotate(-90)" fill="none" stroke="#0e264d" stroke-linecap="round" stroke-width="3"/>
-  </g>
-</svg>
