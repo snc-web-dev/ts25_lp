@@ -50,24 +50,4 @@ if (isset($_GET['ajax']) && $_GET['ajax'] === 'true') {
 
 // 通常のページ読み込み時はHTMLを出力
 $voices = getRandomVoices();
-?>
-
-<section class="voice" id="voice">
-    <div class="inner fade">
-        <div><img src="./img/con05_logo.webp" alt="七夕天燈節2025" class="con05logo">
-            <h2><img src="./img/con05_tit.webp" alt="顧客回饋"></h2>
-        </div>
-        <ul class="voiceList">
-            <?php foreach ($voices as $index => $voice): ?>
-                <li data-voice-index="<?php echo $index; ?>">
-                    <dl>
-                        <dt><?php echo htmlspecialchars($voice['name'], ENT_QUOTES, 'UTF-8'); ?><span>(<?php echo htmlspecialchars($voice['gender'], ENT_QUOTES, 'UTF-8'); ?>/<?php echo htmlspecialchars($voice['age'], ENT_QUOTES, 'UTF-8'); ?>)</span></dt>
-                        <dd>
-                            <p><?php echo htmlspecialchars($voice['comment'], ENT_QUOTES, 'UTF-8'); ?></p>
-                        </dd>
-                    </dl>
-                </li>
-            <?php endforeach; ?>
-        </ul>
-    </div>
-</section>
+?> <section class="voice" id="voice"><div class="inner fade"><div><img src="./img/con05_logo.webp" alt="七夕天燈節2025" class="con05logo"><h2><img src="./img/con05_tit.webp" alt="顧客回饋"></h2></div><ul class="voiceList"> <?php foreach ($voices as $index => $voice): ?> <li data-voice-index="<?php echo $index; ?>"><dl><dt><?php echo htmlspecialchars($voice['name'], ENT_QUOTES, 'UTF-8'); ?><span>(<?php echo htmlspecialchars($voice['gender'], ENT_QUOTES, 'UTF-8'); ?>/<?php echo htmlspecialchars($voice['age'], ENT_QUOTES, 'UTF-8'); ?>)</span></dt><dd><p><?php echo htmlspecialchars($voice['comment'], ENT_QUOTES, 'UTF-8'); ?></p></dd></dl></li> <?php endforeach; ?> </ul></div></section>

@@ -14,8 +14,8 @@
       <h1><img src="/img/header_logo.webp" alt="七夕スカイランタン祭り2025"></h1>
     </a>
     <div class="h_btnarea">
-      <a href="https://snc-ts.com/ticket.php" target="_blank" class="btn jump_to_ticket">
-        <p>チケット購入</p>
+      <a href="https://www.kkday.com/ja/product/184285" target="_blank" class="btn jump_to_ticket">
+        <p>BUY TICKET</p>
       </a>
     </div>
   </div>

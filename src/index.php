@@ -31,7 +31,7 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
     <meta charset="UTF-8">
     <title>七夕スカイランタン祭り2025 | 今年で7回目！日本最大の七夕祭り</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="description" content="年で7回目となる『七夕スカイランタン祭り』。夏の夜空に願いを込めたスカイランタンを一斉に浮かべる感動のひとときを、新しい夏の風物詩に。2025年もよりパワーアップした内容で皆さんをお待ちしています！">
+    <meta name="description" content="今年で7回目となる『七夕スカイランタン祭り』。夏の夜空に願いを込めたスカイランタンを一斉に浮かべる感動のひとときを、新しい夏の風物詩に。2025年もよりパワーアップした内容で皆さんをお待ちしています！">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7GL9HGS717"></script>
@@ -77,7 +77,7 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@skylanternJP">
     <meta name="twitter:title" content="七夕スカイランタン祭り2025 | 今年で7回目！日本最大の七夕祭り">
-    <meta name="twitter:description" content="年で7回目となる『七夕スカイランタン祭り』。夏の夜空に願いを込めたスカイランタンを一斉に浮かべる感動のひとときを、新しい夏の風物詩に。2025年もよりパワーアップした内容で皆さんをお待ちしています！">
+    <meta name="twitter:description" content="今年で7回目となる『七夕スカイランタン祭り』。夏の夜空に願いを込めたスカイランタンを一斉に浮かべる感動のひとときを、新しい夏の風物詩に。2025年もよりパワーアップした内容で皆さんをお待ちしています！">
     <meta name="twitter:image" content="https://snc-ts.com/img/ogp.webp">
 
     <meta name="robots" content="noindex, follow">
@@ -149,7 +149,9 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
             <div class="fade con02">
                 <div class="btn_area">
                     <img src="img/btn_deco.webp" alt="早トク！最大2000円割引！" class="btn_deco">
-                    <a href="https://snc-ts.com/ticket.php" class="btn jump_to_ticket btn_con" target="_blank"><img src="img/btn.webp" alt="チケットのご予約はこちら"></a>
+                    <a href="https://snc-ts.com/ticket.php" class="btn jump_to_ticket btn_con" target="_blank"><p>チケットのご予約はこちら</p>
+                        <img src="img/btn_bg.webp" alt="チケットのご予約はこちら">
+                    </a>
                     <!-- <p class="come attention-p">※当日券については随時お知らせ<br><a href="https://x.com/NandemoCompany" target="_blank">@SoraAkari_snc</a>をご確認ください</span></p> -->
                     <!-- <p class="come attention-p">※会場にて当日券発売中！<br><span class="i-text">※当日券情報は<a href="https://x.com/NandemoCompany" target="_blank">@SoraAkari_snc</a>にてご確認ください</span></p> -->
                 </div>
@@ -261,7 +263,9 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
             </div> -->
             <div class="btn_area">
                 <img src="img/btn_deco.webp" alt="早トク！最大2000円割引！" class="btn_deco">
-                <a href="https://snc-ts.com/ticket.php" class="btn jump_to_ticket btn_con" target="_blank"><img src="img/btn.webp" alt="チケットのご予約はこちら"></a>
+                <a href="https://snc-ts.com/ticket.php" class="btn jump_to_ticket btn_con" target="_blank"><p>チケットのご予約はこちら</p>
+                    <img src="img/btn_bg.webp" alt="チケットのご予約はこちら">
+                </a>
                 <!-- <p class="come attention-p">※最新情報は随時お知らせ<br><a href="https://x.com/SoraAkari_snc" target="_blank">@SoraAkari_snc</a>をご確認ください</span></p> -->
                 <!-- <p class="come attention-p">※会場にて当日券発売中！<br><span class="i-text">※当日券情報は<a href="https://x.com/NandemoCompany" target="_blank">@SoraAkari_snc</a>にてご確認ください</span></p> -->
             </div>

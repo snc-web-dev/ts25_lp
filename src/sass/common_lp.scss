@@ -509,13 +509,20 @@ header {
       }
     }
     .h_btnarea {
+      padding: 4px 0;
       a.jump_to_ticket {
-        width: 145px;
         height: 100%;
-        border-left: 1px solid $base-bg;
         position: relative;
         display: grid;
         place-content: center;
+        // width: 145px;
+        // border-left: 1px solid $base-bg;
+        // ▼ここから変更
+        width: 160px;
+        background: $base-acc;
+        border: 2px solid $base-bg;
+        box-shadow: 3px 3px 0 $base-bg;
+        transition: 0.2s;
         p {
           color: $base-bg;
           font-size: 13px;
@@ -537,6 +544,8 @@ header {
         }
         &:hover {
           background: #eee;
+          transform: translate(2px, 2px);
+          box-shadow: 1px 1px 0 $base-bg;
           p:after {
             right: -1.9em;
           }
@@ -567,7 +576,7 @@ header {
   @include mid {
     .header_inner {
       .h_btnarea a.jump_to_ticket {
-        width: 120px;
+        width: 135px;
       }
       .contct_head {
         margin: 0;

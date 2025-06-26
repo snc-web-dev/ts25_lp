@@ -86,7 +86,7 @@
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5BRFWMRC" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- header -->
-<?php include('../php/common/header_lp.php'); ?>
+<?php include('../php/common/header_lp_en.php'); ?>
 <main>
 <div class="first_view fade">
 <img alt="제7회! 일본 최대 규모의 칠석 축제" src="img/fv.webp?v=3"/>

@@ -525,13 +525,19 @@ header .header_inner a.hlogo {
   padding: 4px 0 8px 0;
   height: 100%;
 }
+header .header_inner .h_btnarea {
+  padding: 4px 0;
+}
 header .header_inner .h_btnarea a.jump_to_ticket {
-  width: 145px;
   height: 100%;
-  border-left: 1px solid #03212b;
   position: relative;
   display: grid;
   place-content: center;
+  width: 160px;
+  background: #d1d64b;
+  border: 2px solid #03212b;
+  box-shadow: 3px 3px 0 #03212b;
+  transition: 0.2s;
 }
 header .header_inner .h_btnarea a.jump_to_ticket p {
   color: #03212b;
@@ -553,6 +559,8 @@ header .header_inner .h_btnarea a.jump_to_ticket p:after {
 }
 header .header_inner .h_btnarea a.jump_to_ticket:hover {
   background: #eee;
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 #03212b;
 }
 header .header_inner .h_btnarea a.jump_to_ticket:hover p:after {
   right: -1.9em;
@@ -582,7 +590,7 @@ header a.hlogo:hover {
 }
 @media screen and (max-width: 591px) {
   header .header_inner .h_btnarea a.jump_to_ticket {
-    width: 120px;
+    width: 135px;
   }
   header .header_inner .contct_head {
     margin: 0;
