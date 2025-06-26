@@ -98,7 +98,7 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- header -->
-    <?php include('../php/common/header_lp.php'); ?>
+    <?php include('../php/common/header_lp_en.php'); ?>
     <main>
         <div class="first_view fade">
             <img src="img/fv.webp?v=3" alt="第七屆！日本最大規模的七夕節">

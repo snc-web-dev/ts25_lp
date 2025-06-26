@@ -93,7 +93,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BRFWMRC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <?php include('../php/common/header_lp.php'); ?>
+    <?php include('../php/common/header_lp_en.php'); ?>
     <main>
         <section class="first_view fade">
             <img src="./img/fv.webp" alt="Japan's Largest Tanabata Festival">
