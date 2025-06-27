@@ -431,7 +431,7 @@ main {
 header {
   width: 100%;
   position: fixed;
-  height: min(10.7vw, 80px);
+  height: 80px;
   top: 0;
   left: 0;
   display: flex;
@@ -518,14 +518,14 @@ header {
         // width: 145px;
         // border-left: 1px solid $base-bg;
         // ▼ここから変更
-        width: 160px;
+        width: 175px;
         background: $base-acc;
         border: 2px solid $base-bg;
         box-shadow: 3px 3px 0 $base-bg;
         transition: 0.2s;
         p {
           color: $base-bg;
-          font-size: 13px;
+          font-size: 15px;
           letter-spacing: 0.04em;
           text-align: center;
           position: relative;
@@ -568,15 +568,19 @@ header {
     }
   }
   @include ipad {
-    height: 70px;
-    &.headerScroll {
-      height: 62px;
-    }
+    // height: 70px;
+    // &.headerScroll {
+    //   height: 62px;
+    // }
   }
   @include mid {
     .header_inner {
       .h_btnarea a.jump_to_ticket {
-        width: 135px;
+        width: 145px;
+        padding-right: 0.5em;
+      }
+      a img {
+        max-width: 95px;
       }
       .contct_head {
         margin: 0;
@@ -588,6 +592,9 @@ header {
   }
   @include sp {
     height: 65px;
+    .header_inner .h_btnarea a.jump_to_ticket p {
+      font-size: 14px;
+    }
     &.headerScroll {
       height: 55px;
     }

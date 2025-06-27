@@ -450,7 +450,7 @@ main {
 header {
   width: 100%;
   position: fixed;
-  height: min(10.7vw, 80px);
+  height: 80px;
   top: 0;
   left: 0;
   display: flex;
@@ -533,7 +533,7 @@ header .header_inner .h_btnarea a.jump_to_ticket {
   position: relative;
   display: grid;
   place-content: center;
-  width: 160px;
+  width: 175px;
   background: #d1d64b;
   border: 2px solid #03212b;
   box-shadow: 3px 3px 0 #03212b;
@@ -541,7 +541,7 @@ header .header_inner .h_btnarea a.jump_to_ticket {
 }
 header .header_inner .h_btnarea a.jump_to_ticket p {
   color: #03212b;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 0.04em;
   text-align: center;
   position: relative;
@@ -581,16 +581,16 @@ header a.hlogo:hover {
 }
 @media screen and (max-width: 767px) {
   header {
-    height: 70px;
     /*スタイルを展開したいところに記述する*/
-  }
-  header.headerScroll {
-    height: 62px;
   }
 }
 @media screen and (max-width: 591px) {
   header .header_inner .h_btnarea a.jump_to_ticket {
-    width: 135px;
+    width: 145px;
+    padding-right: 0.5em;
+  }
+  header .header_inner a img {
+    max-width: 95px;
   }
   header .header_inner .contct_head {
     margin: 0;
@@ -602,6 +602,9 @@ header a.hlogo:hover {
 @media screen and (max-width: 414px) {
   header {
     height: 65px;
+  }
+  header .header_inner .h_btnarea a.jump_to_ticket p {
+    font-size: 14px;
   }
   header.headerScroll {
     height: 55px;
@@ -881,7 +884,8 @@ header
     bottom: -2em;
     left: 10px;
     background: white;
-    padding: 4px;
+    padding: 6px;
+    line-height: 1.25;
   }
 }
 .lang-menu {
