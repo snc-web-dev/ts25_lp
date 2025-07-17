@@ -148,7 +148,7 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
             </div>
             <div class="fade con02">
                 <div class="btn_area">
-                    <img src="img/btn_deco.webp" alt="早トク！最大2000円割引！" class="btn_deco">
+                    <!-- <img src="img/btn_deco.webp" alt="早トク！最大2000円割引！" class="btn_deco"> -->
                     <a href="https://snc-ts.com/ticket.php" class="btn jump_to_ticket btn_con" target="_blank"><p>チケットのご予約はこちら</p>
                         <img src="img/btn_bg.webp" alt="チケットのご予約はこちら">
                     </a>
@@ -262,7 +262,7 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
                 </ul>
             </div> -->
             <div class="btn_area">
-                <img src="img/btn_deco.webp" alt="早トク！最大2000円割引！" class="btn_deco">
+                <!-- <img src="img/btn_deco.webp" alt="早トク！最大2000円割引！" class="btn_deco"> -->
                 <a href="https://snc-ts.com/ticket.php" class="btn jump_to_ticket btn_con" target="_blank"><p>チケットのご予約はこちら</p>
                     <img src="img/btn_bg.webp" alt="チケットのご予約はこちら">
                 </a>
