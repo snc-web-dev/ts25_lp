@@ -133,6 +133,7 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
     <?php include('./php/common/header_lp.php'); ?>
     <main>
         <div class="first_view fade">
+            <div class="abso"><img src="./img/lp_deco.webp" alt="神奈川会場完売御礼！"></div>
             <img src="img/fv.webp?v=3" alt="今年で7回目！日本最大の七夕祭り">
         </div>
         <div class="obi_con">

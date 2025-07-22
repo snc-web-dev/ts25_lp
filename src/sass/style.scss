@@ -140,6 +140,21 @@ h1 {
   text-align: center;
   width: 100%;
 }
+main {
+  margin-top: 2em;
+}
+.first_view {
+  .abso {
+    position: absolute;
+    width: 80%;
+    top: calc(65px - 1em);
+    left: 50%;
+    transform: translateX(-50%);
+    @include sp {
+      top: calc(65px - 2em);
+    }
+  }
+}
 
 #news {
   color: $base-bg;
