@@ -750,7 +750,7 @@ main {
   }
   .btn_deco {
     width: 90%;
-    margin-bottom: 24px;
+    margin-bottom: min(3%, 24px);
   }
   .come {
     width: 95%;
@@ -759,6 +759,7 @@ main {
     // font-size: min(2vw, 26px);
     font-size: clamp(10px, 1.6vw, 20px);
     line-height: 1.25;
+    margin-top: 1em;
   }
   .attention-p {
     width: 95%;
@@ -797,9 +798,6 @@ main {
   // .btn_con {
   //   width: 85%;
   // }
-  .btn_area .come {
-    margin-top: 0.5em;
-  }
 }
 @keyframes btn {
   0% {

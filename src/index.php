@@ -149,10 +149,11 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
             </div>
             <div class="fade con02">
                 <div class="btn_area">
-                    <!-- <img src="img/btn_deco.webp" alt="早トク！最大2000円割引！" class="btn_deco"> -->
+                    <img src="img/btn_deco.webp" alt="チケット残り僅か！" class="btn_deco">
                     <a href="https://snc-ts.com/ticket.php" class="btn jump_to_ticket btn_con" target="_blank"><p>チケットのご予約はこちら</p>
                         <img src="img/btn_bg.webp" alt="チケットのご予約はこちら">
                     </a>
+                    <p class="come">※16日・17日の当日券の販売はありません</p>
                     <!-- <p class="come attention-p">※当日券については随時お知らせ<br><a href="https://x.com/NandemoCompany" target="_blank">@SoraAkari_snc</a>をご確認ください</span></p> -->
                     <!-- <p class="come attention-p">※会場にて当日券発売中！<br><span class="i-text">※当日券情報は<a href="https://x.com/NandemoCompany" target="_blank">@SoraAkari_snc</a>にてご確認ください</span></p> -->
                 </div>
@@ -263,10 +264,11 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
                 </ul>
             </div> -->
             <div class="btn_area">
-                <!-- <img src="img/btn_deco.webp" alt="早トク！最大2000円割引！" class="btn_deco"> -->
+                <img src="img/btn_deco.webp" alt="チケット残りわずか！" class="btn_deco">
                 <a href="https://snc-ts.com/ticket.php" class="btn jump_to_ticket btn_con" target="_blank"><p>チケットのご予約はこちら</p>
                     <img src="img/btn_bg.webp" alt="チケットのご予約はこちら">
                 </a>
+                <p class="come">※16日・17日の当日券の販売はありません</p>
                 <!-- <p class="come attention-p">※最新情報は随時お知らせ<br><a href="https://x.com/SoraAkari_snc" target="_blank">@SoraAkari_snc</a>をご確認ください</span></p> -->
                 <!-- <p class="come attention-p">※会場にて当日券発売中！<br><span class="i-text">※当日券情報は<a href="https://x.com/NandemoCompany" target="_blank">@SoraAkari_snc</a>にてご確認ください</span></p> -->
             </div>

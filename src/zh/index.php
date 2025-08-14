@@ -114,7 +114,7 @@
             </div>
             <div class="fade con02">
                 <div class="btn_area">
-                    <!-- <img src="img/btn_deco.webp" alt="早鳥優惠！最高折扣2000日圓！" class="btn_deco"> -->
+                    <img src="img/btn_deco2.webp" alt="8月16日已售罄！门票所剩无几。" class="btn_deco">
                     <a href="https://www.kkday.com/ja/product/184285" class="btn jump_to_ticket btn_con" target="_blank"><img src="img/btn.webp" alt="點此預約門票"></a>
                 </div>
             </div>
@@ -160,7 +160,7 @@
                 <img src="img/con08_tit.webp" alt="票價資訊" class="fade">
             </h2>
             <div class="btn_area">
-                <!-- <img src="img/btn_deco.webp" alt="早鳥優惠！最高折扣2000日圓！" class="btn_deco"> -->
+                <img src="img/btn_deco2.webp" alt="8月16日已售罄！门票所剩无几。" class="btn_deco">
                 <a href="https://www.kkday.com/ja/product/184285" class="btn jump_to_ticket btn_con" target="_blank"><img src="img/btn.webp" alt="點此前往預約門票"></a>
             </div>
         </section>

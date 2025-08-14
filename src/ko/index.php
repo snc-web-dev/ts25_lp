@@ -100,8 +100,8 @@
 </div>
 <div class="fade con02">
 <div class="btn_area">
-<!-- <img alt="얼리버드 할인! 최대 2000엔 할인!" class="btn_deco" src="img/btn_deco.webp"/> -->
-<a class="btn jump_to_ticket btn_con" href="https://www.kkday.com/ja/product/184285" target="_blank"><img alt="點此預約門票" src="img/btn.webp"/></a>
+<img alt="8월 16일은 매진되었습니다! 티켓이 거의 남지 않았습니다." class="btn_deco" src="img/btn_deco2.webp"/>
+<a class="btn jump_to_ticket btn_con" href="https://www.kkday.com/ja/product/184285" target="_blank"><img alt="티켓 예약 바로가기" src="img/btn.webp"/></a>
 </div>
 </div>
 <img alt="日本最大規模的天燈節 心靈觸動的夢幻空間" class="fade" src="img/con02.webp"/>
@@ -140,7 +140,7 @@
 <img alt="티켓 요금" class="fade" src="img/con08_tit.webp"/>
 </h2>
 <div class="btn_area">
-<!-- <img alt="얼리버드 할인! 최대 2000엔 할인!" class="btn_deco" src="img/btn_deco.webp"/> -->
+<img alt="8월 16일은 매진되었습니다! 티켓이 거의 남지 않았습니다." class="btn_deco" src="img/btn_deco2.webp"/>
 <a class="btn jump_to_ticket btn_con" href="https://www.kkday.com/ja/product/184285" target="_blank"><img alt="티켓 예약 바로가기" src="img/btn.webp"/></a>
 </div>
 </section>

@@ -92,7 +92,7 @@
 <img alt="제7회! 일본 최대 규모의 칠석 축제" src="img/fv.webp?v=3"/>
 </div>
 <div class="obi_con">
-<p class="come">※最新消息請關注<a href="https://x.com/SoraAkari_snc" target="_blank">@SoraAkari_snc</a></p>
+<p class="come">※최신 소식은<a href="https://x.com/SoraAkari_snc" target="_blank">@SoraAkari_snc</a>에서 확인하세요.</p>
 </div>
 <div class="lp_con">
 <div class="link_area fade content01">
@@ -100,8 +100,8 @@
 </div>
 <div class="fade con02">
 <div class="btn_area">
-<img alt="얼리버드 할인! 최대 2000엔 할인!" class="btn_deco" src="img/btn_deco.webp"/>
-<a class="btn jump_to_ticket btn_con" href="https://snc-ts.com/ticket.php" target="_blank"><img alt="點此預約門票" src="img/btn.webp"/></a>
+<img alt="8월 16일은 매진되었습니다! 티켓이 거의 남지 않았습니다." class="btn_deco" src="img/btn_deco2.webp"/>
+<a class="btn jump_to_ticket btn_con" href="https://www.kkday.com/ja/product/184285" target="_blank"><img alt="티켓 예약 바로가기" src="img/btn.webp"/></a>
 </div>
 </div>
 <img alt="日本最大規模的天燈節 心靈觸動的夢幻空間" class="fade" src="img/con02.webp"/>
@@ -140,8 +140,8 @@
 <img alt="티켓 요금" class="fade" src="img/con08_tit.webp"/>
 </h2>
 <div class="btn_area">
-<img alt="얼리버드 할인! 최대 2000엔 할인!" class="btn_deco" src="img/btn_deco.webp"/>
-<a class="btn jump_to_ticket btn_con" href="https://snc-ts.com/ticket.php" target="_blank"><img alt="티켓 예약 바로가기" src="img/btn.webp"/></a>
+<img alt="8월 16일은 매진되었습니다! 티켓이 거의 남지 않았습니다." class="btn_deco" src="img/btn_deco2.webp"/>
+<a class="btn jump_to_ticket btn_con" href="https://www.kkday.com/ja/product/184285" target="_blank"><img alt="티켓 예약 바로가기" src="img/btn.webp"/></a>
 </div>
 </section>
 <section class="access top-con" id="access">

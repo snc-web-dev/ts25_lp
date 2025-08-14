@@ -109,8 +109,8 @@
             </div>
             <div class="fade con02">
                 <div class="btn_area">
-                    <img src="./img/btn_deco.webp" alt="Save up to 2,000 yen!" class="btn_deco">
-                    <a href="https://snc-ts.com/ticket.php" class="btn jump_to_ticket btn_con" target="_blank"><img src="./img/btn.webp" alt="Buy Tickets Here"></a>
+                    <img src="./img/btn_deco2.webp" alt="August 16 is sold out! Only a few tickets left." class="btn_deco">
+                    <a href="https://www.kkday.com/ja/product/184285" class="btn jump_to_ticket btn_con" target="_blank"><img src="./img/btn.webp" alt="Buy Tickets Here"></a>
                 </div>
             </div>
             <img src="./img/con02.webp" alt="Japan's Largest Lantern Festival -A Heartfelt and Fantastical Space" class="fade">
@@ -156,8 +156,8 @@
                 <img src="./img/con08_tit.webp" alt="Ticket Information" class="fade">
             </h2>
             <div class="btn_area">
-                <img src="./img/btn_deco.webp" alt="Early Bird! Save up to 2,000 yen!" class="btn_deco">
-                <a href="https://snc-ts.com/ticket.php" class="btn jump_to_ticket btn_con" target="_blank"><img src="./img/btn.webp" alt="Buy Tickets Here"></a>
+                <img src="./img/btn_deco2.webp" alt="August 16 is sold out! Only a few tickets left." class="btn_deco">
+                <a href="https://www.kkday.com/ja/product/184285" class="btn jump_to_ticket btn_con" target="_blank"><img src="./img/btn.webp" alt="Buy Tickets Here"></a>
             </div>
         </section>
 

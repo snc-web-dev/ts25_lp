@@ -769,7 +769,7 @@ header a.hlogo:hover {
 }
 .btn_area .btn_deco {
   width: 90%;
-  margin-bottom: 24px;
+  margin-bottom: min(3%, 24px);
 }
 .btn_area .come {
   width: 95%;
@@ -777,6 +777,7 @@ header a.hlogo:hover {
   text-align: center;
   font-size: clamp(10px, 1.6vw, 20px);
   line-height: 1.25;
+  margin-top: 1em;
 }
 .btn_area .attention-p {
   width: 95%;
@@ -812,11 +813,6 @@ header a.hlogo:hover {
   }
 }
 
-@media screen and (max-width: 414px) {
-  .btn_area .come {
-    margin-top: 0.5em;
-  }
-}
 @keyframes btn {
   0% {
     transform: translateX(0);
