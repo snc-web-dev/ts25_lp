@@ -153,6 +153,7 @@
 <img alt="교토 죠요 고리고리노오카" class="accname" src="img/con09_txt.webp"/>
 <iframe allowfullscreen="" height="250" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.4451997625524!2d135.79524647575087!3d34.845039272868796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600116d08e3a772d%3A0xd6fa5507ca948412!2z5Z-O6Zm95LqU6YeM5LqU6YeM44Gu5LiYICjkuqzpg73lupznq4vmnKjmtKXlt53pgYvli5XlhazlnJIp!5e0!3m2!1sja!2sjp!4v1749708452268!5m2!1sja!2sjp" style="border:0;" width="100%"></iframe>
 <p class="come">※본 행사는 야외에서 열립니다. 현장 시설이 제한되어 있으므로, 돗자리, 우비, 더위 대비 용품 등을 준비해 주세요.</p>
+<p class="come">※주차권은 모두 매진되었습니다. 대중교통을 이용하여 방문해 주시기 바랍니다.</p>
 </div>
 <div class="news_kanagawa">
 <div class="fade">

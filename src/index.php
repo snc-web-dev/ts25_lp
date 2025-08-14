@@ -362,6 +362,7 @@ header("Expires: Wed, 11 Jan 1984 05:00:00 GMT");
 
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.4451997625524!2d135.79524647575087!3d34.845039272868796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600116d08e3a772d%3A0xd6fa5507ca948412!2z5Z-O6Zm95LqU6YeM5LqU6YeM44Gu5LiYICjkuqzpg73lupznq4vmnKjmtKXlt53pgYvli5XlhazlnJIp!5e0!3m2!1sja!2sjp!4v1749708452268!5m2!1sja!2sjp" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <p class="come">※屋外開催となります。会場の設備には限りがございますため、レジャーシートや雨具、暑さ対策など十分にご配慮の上、お越しください。</p>
+                    <p class="come">※駐車場チケットはすべて完売しております。公共交通機関を利用してのご来場をお願いいたします。</p>
                 </div>
                 <div class="news_kanagawa">
                     <div class="fade">

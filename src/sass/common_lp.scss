@@ -784,6 +784,9 @@ main {
     font-weight: 500;
     width: min(95%, 515px);
     margin: 1.5em auto 0;
+    & + .come {
+      margin-top: 1em;
+    }
   }
   @include sp {
     .accname {
